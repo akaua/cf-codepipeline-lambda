@@ -17,7 +17,6 @@ Parameters:
     Description: bucket name to store lambda 
     MinLength: '1'
     MaxLength: '41'
-    AllowedPattern: '[a-zA-Z]*'
 Resources:
   ### Roles ###
   CodeBuildServiceRole:
